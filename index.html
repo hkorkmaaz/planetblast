@@ -2,43 +2,40 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Planet Blast — Destek / Support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05060f">
+<title>Planet Blast</title>
 <style>
-  :root { --bg: #0e0a2b; --ink: #f4effe; --muted: #b9b3dd; --gold: #ffd45c; color-scheme: dark; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 24px 16px 64px; }
-  main { max-width: 680px; margin: 0 auto; }
-  img { width: 120px; height: 120px; border-radius: 26px; display: block; margin: 8px 0 16px; }
-  h1 { color: var(--gold); font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
-  h2 { font-size: 20px; margin: 28px 0 6px; }
-  p, li { color: var(--muted); }
-  a { color: var(--gold); }
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; min-height: 100vh; min-height: 100dvh; box-sizing: border-box;
+    padding: 40px 16px; background: linear-gradient(#0a0d24, #03040c); color: #fff;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column; align-items: center; gap: 14px;
+  }
+  h1 { margin: 0; font-size: 40px; letter-spacing: 1px; }
+  p.sub { margin: 0 0 14px; color: rgba(255,255,255,.6); text-align: center; }
+  a.card {
+    display: block; width: 100%; max-width: 440px; box-sizing: border-box; padding: 18px 20px;
+    border-radius: 18px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
+    color: inherit; text-decoration: none;
+  }
+  a.card:active { background: rgba(255,255,255,.12); }
+  a.card.main { border-color: #ffe27a; }
+  .name { font-size: 20px; font-weight: 800; }
+  .tag { font-size: 12px; font-weight: 700; color: #1a1430; background: #ffe27a; border-radius: 999px; padding: 2px 9px; margin-left: 8px; vertical-align: 3px; }
+  .desc { margin-top: 6px; font-size: 15px; line-height: 1.4; color: rgba(255,255,255,.7); }
+  .old { opacity: .6; }
 </style>
 </head>
 <body>
-<main>
-  <img src="icon.png" alt="Planet Blast simgesi / app icon">
-  <h1>Planet Blast</h1>
-  <p>Sevimli gezegenleri birleştirdiğin bir uzay bulmacası. / A merge puzzle with cute planets.</p>
+  <h1>PLANET BLAST</h1>
+  <p class="sub">Oyunun geliştirme sürümü</p>
 
-  <h2>Destek</h2>
-  <p>Bir sorun mu yaşadın, önerin mi var? Bize yaz: <a href="mailto:hkorkmaaz1@gmail.com">hkorkmaaz1@gmail.com</a>. Yazarken telefon modelini ve iOS sürümünü eklersen daha hızlı yardımcı olabiliriz.</p>
-  <p>Sık sorulanlar:</p>
-  <ul>
-    <li><b>İlerlemem nerede saklanıyor?</b> Yalnızca telefonunda. Oyunu silersen ilerleme de silinir.</li>
-    <li><b>Sıralamada adım neden görünmüyor?</b> iPhone'da Game Center'a giriş yapmış olmalısın (Ayarlar → Game Center).</li>
-    <li><b>Ses gelmiyor.</b> Oyundaki ses düğmesini ve telefonun sessiz anahtarını kontrol et.</li>
-  </ul>
+  <a class="card main" href="v05-yigin.html">
+    <div class="name">Planet Blast <span class="tag">OYNA</span></div>
+    <div class="desc">Yayınlanan sürüm. Normal mod, süreli mod (Time Rush), meydan okuma kodu, sıralama ve ayarlar, kusursuz atış. Hedefler, süpernova, galaksi ve albüm, nadir gezegenler, kendi gölgen, solucan deliği, reklam yer tutucuları. Oyun içi güçler (çember sıfırlama, kara delik girdabı), yeni ses tasarımı, ilk tur öğreticisi, kara delik ve altın gezegen, temalar, çift yıldız, genişleyen çember, market, kart seçimi, "az kaldı" ekranı.</div>
+  </a>
 
-  <h2>Support</h2>
-  <p>Found a problem or have an idea? Write to <a href="mailto:hkorkmaaz1@gmail.com">hkorkmaaz1@gmail.com</a>. Including your phone model and iOS version helps us help you faster.</p>
-  <ul>
-    <li><b>Where is my progress saved?</b> Only on your phone. Deleting the game deletes your progress.</li>
-    <li><b>Why isn't my name on the leaderboard?</b> Sign in to Game Center on your iPhone (Settings → Game Center).</li>
-    <li><b>No sound.</b> Check the sound button in the game and your phone's silent switch.</li>
-  </ul>
-
-  <p><a href="privacy.html">Gizlilik Politikası / Privacy Policy</a></p>
-</main>
 </body>
 </html>
